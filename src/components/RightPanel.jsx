@@ -157,8 +157,6 @@ const RightPanel = ({ onBackToGroups }) => {
           ))
         )}
       </div>
-
-      {/* ADD NOTE AREA */}
       <div className="add-note-area">
         <textarea
           placeholder="Enter your text here..........."
@@ -177,5 +175,6 @@ const RightPanel = ({ onBackToGroups }) => {
     </div>
   );
 };
+
 
 export default RightPanel;
